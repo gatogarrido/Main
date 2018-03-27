@@ -1,0 +1,11 @@
+td{ font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000}
+a{color: #003366;text-decoration: underline;text-underline: single;}
+h1 {font-size: 18px; font-weight:bold; color:#993300; margin-bottom:5px;}
+h1 a{font-size: 18px; font-weight:bold; color:#993300;}
+h2 {font-size: 16px; font-weight:bold; color:#003366;margin-bottom:5px;}
+h3 {font-size: 14px; font-weight: bold;font-style: italic; color: #3366FF;margin-bottom:5px;}
+h4 {font-size: 13px; font-weight: bold;color: #000000;margin-bottom:5px;}
+h5 {font-size: 12px; font-weight: bold;color: #000000;margin-bottom:5px;}
+.gird-table{ background-color:#cccccc;}
+.gird-table th{background-color:#f7f7f7; color:#002985; text-align:left}
+.gird-table td{background-color:#ffffff}
