@@ -53,3 +53,4 @@ cities_list <- cities_list %>% gather(Fuente, Ciudad, everything())
 info_list <- info_list %>% gather(Fuente, Datos, everything())
 
 df <- data_frame(names_list$Nombres, cities_list$Ciudad, info_list$Datos)
+writexl::write_xlsx(df, "lista_universidades.xlsx")
