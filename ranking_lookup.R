@@ -1,7 +1,7 @@
 library(tidyverse)
 library(stringdist)
 
-df <- readxl::read_xlsx("lista_universidades.xlsx")
+df <- readxl::read_xlsx("lista_universidades_base.xlsx")
 THE_rank <- readxl::read_xlsx("lista_rankings.xlsx", sheet = "Times_Higher_Ed")
 QS_rank <- readxl::read_xlsx("lista_rankings.xlsx", sheet = "QS_World")
 
